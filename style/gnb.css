@@ -1,0 +1,40 @@
+.sidebar {
+    width: 15%;
+    border-right: 1px solid #d6d6d6;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar li:not(:first-child) img {
+    width: 24px;
+    display: flex;
+}
+
+.sidebar > li:nth-child(1) > img {
+    width: 103px;
+    padding: 25px 0px;
+}
+
+.sidebar > li:nth-child(8) > img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000000;
+}
+
+.sidebar > li, .bottom-sidebar-content > li {
+    margin: 4px 0px;
+    padding: 17px 0px;
+}
+
+.sidebar > li > p, .bottom-sidebar-content > li > p {
+    padding-left: 16px;
+}
+
+.bottom-sidebar-content {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
